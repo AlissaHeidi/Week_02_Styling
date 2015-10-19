@@ -1,0 +1,131 @@
+/*
+Project Name: Relaxr
+Client: Your Client
+Author: Alissa Sanders
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+.img {
+  background: #6699FF url("./header_bg.jpg") no-repeat center top;
+  background-size: cover;
+  height: 500px;
+  margin-left: 0px;
+}
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  color: white;
+  margin-top: 0;
+  text-transform: bolder;
+  padding-top: 1em;
+  padding-left: 3em;
+}
+.img > p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 3em;
+  color: white;
+}
+.img button {
+  display: block;
+  font-weight: bolder;
+  font-size: 1em;
+  color: black;
+  background: yellow;
+  height: 40px;
+  width: 200px;
+  margin: 0 auto;
+  border: 0;
+  border-radius: 3px;
+}
+.text-box {
+  background-color: #eaeaea;
+  height: 500px;
+}
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  color: #001D6D;
+  padding-top: 1em;
+  padding-left: 2.5em;
+  margin-top: 0;
+}
+.text-box > p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.3em;
+  padding-top: 1em;
+  padding-left: 4em;
+}
+ul > li {
+  font-size: 1.3em;
+  margin-left: 3em; 
+}
+.blue-box {
+  background: #6699FF url("./testimonial_bg.jpg") no-repeat center top;
+  background-size: cover;
+  height: 400px;
+  margin-left: 0px;
+  padding-top: 0;
+}
+.blue-box > blockquote {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  font-style: italic;
+  font-weight: lighter;
+  display: block;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  padding-top: 3em;
+}
+.yellow-box {
+  background-color: #E6E65C;
+  padding: 20px;
+}
+.yellow-box > button {
+  background-color: #19356C;
+  color: white;
+  display: block;
+  height: 40px;
+  width: 200px;
+  margin: 0 auto;
+  border: 0;
+  border-radius: 3px;
+}
+.social-media {
+  background-color: #1F1F00;
+  padding: 150px;
+  
+}
+.social-media > p {
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
